@@ -24,6 +24,10 @@ import (
 	"os"
 )
 
+// LogConfig はログ設定を表します。
+// LogLevel はログ出力のレベルを指定します。
+// LogFormat はログの出力形式を指定します。
+// AddSource はログにソース情報を追加するかどうかを指定します。
 type LogConfig struct {
 	LogLevel  string `json:"log_level"`
 	LogFormat string `json:"log_format"`
