@@ -62,11 +62,14 @@ func main() {
 		level = slog.LevelInfo
 	}
 
+	// ログ出力形式の設定
 	opts := &slog.HandlerOptions{
+		// 出力元のファイル名と行番号を追加するかどうかの設定
 		AddSource: config.AddSource,
 		Level:     level,
 	}
 
+	// ログ出力形式の設定に応じてロガーの作成
 	var handler slog.Handler
 	switch config.LogFormat {
 	case "json":
@@ -78,6 +81,7 @@ func main() {
 		handler = slog.NewTextHandler(os.Stdout, opts)
 	}
 
+	// 新しいロガーを作成しそれ標準のロガーにする
 	logger := slog.New(handler)
 	slog.SetDefault(logger)
 
