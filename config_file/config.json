@@ -1,0 +1,5 @@
+{
+  "log_level": "error",
+  "log_format": "json",
+  "add_source": true
+}
