@@ -46,6 +46,8 @@ func main() {
 
 ## ディレクトリ構成
 
+- simple_sample
+  - slogのシンプルな使い方
 - config_file:
   - slogの設定に設定ファイルを使用する例 
 
