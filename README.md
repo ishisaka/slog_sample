@@ -48,6 +48,8 @@ func main() {
 
 - simple_sample
   - slogのシンプルな使い方
+- level
+  - slogの出力レベル設定について
 - config_file:
   - slogの設定に設定ファイルを使用する例 
 
