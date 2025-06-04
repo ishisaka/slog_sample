@@ -50,6 +50,8 @@ func main() {
   - slogのシンプルな使い方
 - level
   - slogの出力レベル設定について
+- group
+  - slogの出力で属性をグルーピングする方法
 - config_file:
   - slogの設定に設定ファイルを使用する例 
 
