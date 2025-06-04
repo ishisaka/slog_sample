@@ -52,6 +52,8 @@ func main() {
   - slogの出力レベル設定について
 - group
   - slogの出力で属性をグルーピングする方法
+- context
+  - slogの出力にcontextの内容を含める場合のサンプル
 - config_file:
   - slogの設定に設定ファイルを使用する例 
 
